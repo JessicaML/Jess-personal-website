@@ -1,5 +1,7 @@
 Hi, this is my personal website, using JQuery and CSS animations.
 
-How to intsall
+How to intsall:
+Not applicable
 
-How to run
+How to run:
+Not applicable

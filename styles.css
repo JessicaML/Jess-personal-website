@@ -11,6 +11,7 @@ body {
 div {
 	padding: 5px;
 }
+
 #nav {
 		position: fixed;
 		font-size: 20pt;
@@ -19,91 +20,78 @@ div {
 		background-color: #3b3b3b;
 	}
 
-	#nav a {
+#nav a {
 		color:#ffffff;
+		-webkit-transition: color 2s ease-out;
+		-moz-transition: color 2s ease-out;
+		-o-transition: color 2s ease-out;
+		transition: color 2s ease-out;
+	}
+
+#nav a:hover {
+		color:#5D86CB;
 	}
 
 #nav ul li {
-				display: inline-block;
-				margin-left: 0.5em;
-				font-size: 0.9em;
-				font-family: 'Fugaz One';
+		display: inline-block;
+		margin-left: 0.5em;
+		font-size: 0.9em;
+		font-family: 'Fugaz One';
+	}
 
-			}
+#one {
+		font-size: 20pt;
+		padding-top: 30px;
+		color: #3b3b3b;
+		background:url(jess.jpg);
+		background-size:100% 100%;
+		height: 700px;
+	}
 
-	#one {
-					font-size: 20pt;
-					padding-top: 30px;
-					color: #3b3b3b;
-					background:url(jess.jpg);
-					background-size:100% 100%;
-					height: 700px;
-				}
-
-	#intro {
-						font-size: 20pt;
-						margin-top: 300px;
-						margin-left: 40px;
-						background: #ffffff;
-						width: 450px;
-						background: rgba(245, 255, 0, 0.50);
-						color: #3b3b3b;
-
-					}
-
-	#intro p {
-		opacity: 1;
-
-
+#intro {
+		font-size: 20pt;
+		margin-top: 300px;
+		margin-left: 40px;
+		background: #ffffff;
+		width: 450px;
+		background: rgba(245, 255, 0, 0.50);
+		color: #3b3b3b;
 	}
 
  #two {
 	 padding-top: 40px;
-
 	 background-color: yellow;
 	 color: #3b3b3b;
-	 height: 500px;
+	 height: 100%;
  }
-
-
 
 #three {
 	padding-top: 40px;
-
 	background-color: yellow;
 	color: #3b3b3b;
-	height: 500px;
-
-
+	height: 100%;
 }
+
 #four {
 	padding-top: 40px;
-
 	background-color: yellow;
 	color: #3b3b3b;
-	height: 500px;
-
-
+	height: 100%;
 }
 
 #five {
 	padding-top: 40px;
-
 	background-color: yellow;
 	color: #3b3b3b;
-	height: 500px;
-
+	height: 100%;
 }
 
 #six {
 	padding-top: 40px;
-
 	background-color: yellow;
 	color: #3b3b3b;
-	height: 120%;
-
+	height: 100%;
 }
-
 
 #footer {
 		font-size: 20pt;
@@ -111,33 +99,28 @@ div {
 		width: 100%;
 		background-color: #3b3b3b;
 		float: right;
-	}
-	#footer a {
+}
+
+#footer a {
 		color: #5D86CB;
 		margin-right: 5px;
 		padding-right: 5px;
-
-	}
+}
 
 #footer ul li {
-				display: inline-block;
-				margin: 0.7em;
-				margin-right: 5px;
-				padding-right: 5px;
-				font-size: 0.6em;
-				font-family: 'Fugaz One';
-				float: right;
-			}
-
-a {
-	 color: #ffffff;
- }
+	display: inline-block;
+	margin: 0.7em;
+	margin-right: 5px;
+	padding-right: 5px;
+	font-size: 0.6em;
+	font-family: 'Fugaz One';
+	float: right;
+}
 
 h1 {
-    font-family: 'Fugaz One';
-    font-size: 28pt;
-		color: #3b3b3b;
-
+	font-family: 'Fugaz One';
+	font-size: 28pt;
+	color: #3b3b3b;
 }
 
 h2 {
@@ -146,32 +129,28 @@ h2 {
 		background-color: #3b3b3b;
 		color: #ffffff;
 		padding: 5px;
-
-
-
 }
-
 
 p {
 	font-family: 'Bitter';
-    font-size: 11pt;
+	font-size: 11pt;
 }
 
 li {
 	font-family: 'Bitter';
-    font-size: 14pt;
-		color: #066188;
-		list-style: none;
+	font-size: 14pt;
+	color: #066188;
+	list-style: none;
 }
-
 
 a {
 	color:#066188;
-  &:hover {
-    color: #fff;
-    -webkit-transition: all .9s ease-in-out;
-       -moz-transition: all .9s ease-in-out;
-        -ms-transition: all .9s ease-in-out;
-         -o-transition: all .9s ease-in-out;
-            transition: all .9s ease-in-out;
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
   }
+
+	a:hover {
+		color:#ffffff;
+	}
