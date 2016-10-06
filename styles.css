@@ -93,6 +93,13 @@ div {
 	height: 100%;
 }
 
+#seven {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
 #footer {
 		font-size: 20pt;
 		margin-bottom: 20px;
