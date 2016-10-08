@@ -1,7 +1,10 @@
 
-@import url(http://fonts.googleapis.com/css?family=Fugaz+One);
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 
-@import url(http://fonts.googleapis.com/css?family=Bitter);
+<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 
 body {
 	background-color: #3b3b3b;
@@ -36,7 +39,7 @@ div {
 		display: inline-block;
 		margin-left: 0.5em;
 		font-size: 0.9em;
-		font-family: 'Fugaz One';
+		font-family: 'Fugaz One', monospace, sans-serif;
 	}
 
 #one {
@@ -100,6 +103,26 @@ div {
 	height: 100%;
 }
 
+#seven form {
+		margin: 15px;
+		font-size: 1.5em;
+		display: block;
+		font-family: 'Fugaz One', monospace, sans-serif;
+	}
+
+#seven input {
+			font-family: 'Fugaz One', monospace, sans-serif;
+			color: #066188;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
+		}
+
+#seven textarea {
+				font-family: 'Fugaz One', monospace, sans-serif;
+				border:solid 2px rgba(185,186,187,0.25);
+				border-radius:0.5em;
+			}
+
 #footer {
 		font-size: 20pt;
 		margin-bottom: 20px;
@@ -120,18 +143,18 @@ div {
 	margin-right: 5px;
 	padding-right: 5px;
 	font-size: 0.6em;
-	font-family: 'Fugaz One';
+	font-family: 'Fugaz One', monospace, sans-serif;
 	float: right;
 }
 
 h1 {
-	font-family: 'Fugaz One';
+	font-family: 'Fugaz One', monospace, sans-serif;
 	font-size: 28pt;
 	color: #3b3b3b;
 }
 
 h2 {
-    font-family: 'Fugaz One';
+    font-family: 'Fugaz One', monospace, sans-serif;
 		font-size: 24pt;
 		background-color: #3b3b3b;
 		color: #ffffff;
@@ -139,12 +162,12 @@ h2 {
 }
 
 p {
-	font-family: 'Bitter';
+	font-family: 'Bitter', Courier, sans-serif;
 	font-size: 11pt;
 }
 
 li {
-	font-family: 'Bitter';
+	font-family: 'Bitter', Courier, sans-serif;
 	font-size: 14pt;
 	color: #066188;
 	list-style: none;
