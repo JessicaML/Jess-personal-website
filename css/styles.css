@@ -35,12 +35,13 @@ div {
 		color:#5D86CB;
 	}
 
-	#bs-example-navbar-collapse-1 ul li {
+#bs-example-navbar-collapse-1 ul li {
 			margin-left: 0.5em;
 			font-size: 0.7em;
 			font-family: 'Fugaz One', monospace, sans-serif;
 		}
-@media screen and (min-width: 480){
+
+@media screen and (min-width: 480) {
 
 #bs-example-navbar-collapse-1 ul li {
 		display: inline-block;
