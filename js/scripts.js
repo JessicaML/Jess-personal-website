@@ -1,6 +1,6 @@
 $(document).ready(function() {
   function scrollNav() {
-    $('#nav a').click(function(){
+    $('#bs-example-navbar-collapse-1 a').click(function(){
       $('html, body').stop().animate({
         scrollTop: $( $(this).attr('href') ).offset().top - 160
       }, 800);

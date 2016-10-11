@@ -15,15 +15,15 @@ div {
 	padding: 5px;
 }
 
-#nav {
+#bs-example-navbar-collapse-1 {
 		position: fixed;
 		font-size: 20pt;
-		margin-bottom: 20px;
+		height: 100%;
 		width: 100%;
 		background-color: #3b3b3b;
 	}
 
-#nav a {
+#bs-example-navbar-collapse-1 a {
 		color:#ffffff;
 		-webkit-transition: color 2s ease-out;
 		-moz-transition: color 2s ease-out;
@@ -31,16 +31,24 @@ div {
 		transition: color 2s ease-out;
 	}
 
-#nav a:hover {
+#bs-example-navbar-collapse-1 a:hover {
 		color:#5D86CB;
 	}
 
-#nav ul li {
+	#bs-example-navbar-collapse-1 ul li {
+			margin-left: 0.5em;
+			font-size: 0.7em;
+			font-family: 'Fugaz One', monospace, sans-serif;
+		}
+@media screen and (min-width: 480){
+
+#bs-example-navbar-collapse-1 ul li {
 		display: inline-block;
 		margin-left: 0.5em;
-		font-size: 0.9em;
+		font-size: 0.7em;
 		font-family: 'Fugaz One', monospace, sans-serif;
 	}
+}
 
 #one {
 		font-size: 20pt;
