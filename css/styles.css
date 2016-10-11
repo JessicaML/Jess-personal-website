@@ -2,18 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
-<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 
 body {
 	background-color: #3b3b3b;
 	color: #3b3b3b;
 }
 
-div {
-	padding: 5px;
-}
 
 #bs-example-navbar-collapse-1 {
 		position: fixed;
