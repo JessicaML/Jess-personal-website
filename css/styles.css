@@ -58,6 +58,7 @@ body {
 		font-size: 20pt;
 		margin-top: 300px;
 		margin-left: 40px;
+		padding: 5px;
 		background: #ffffff;
 		width: 450px;
 		background: rgba(245, 255, 0, 0.50);
@@ -108,12 +109,15 @@ body {
 
 #seven form {
 		margin: 15px;
+		padding: 5px;
 		font-size: 1.5em;
 		display: block;
 		font-family: 'Fugaz One', monospace, sans-serif;
 	}
 
 #seven input {
+			padding: 5px;
+			margin: 5px;
 			font-family: 'Fugaz One', monospace, sans-serif;
 			color: #066188;
 			border:solid 2px rgba(185,186,187,0.25);
@@ -121,9 +125,19 @@ body {
 		}
 
 #seven textarea {
-				font-family: 'Fugaz One', monospace, sans-serif;
-				border:solid 2px rgba(185,186,187,0.25);
-				border-radius:0.5em;
+			padding: 5px;
+			margin: 5px;
+			font-family: 'Fugaz One', monospace, sans-serif;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
+			}
+
+#seven button {
+			padding: 5px;
+			margin: 5px;
+			font-family: 'Fugaz One', monospace, sans-serif;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
 			}
 
 #footer {

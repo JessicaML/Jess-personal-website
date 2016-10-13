@@ -669,6 +669,8 @@ if (typeof jQuery === 'undefined') {
       .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
   }
 
+  //navbar
+
   Collapse.prototype.toggle = function () {
     this[this.$element.hasClass('in') ? 'hide' : 'show']()
   }
@@ -682,6 +684,20 @@ if (typeof jQuery === 'undefined') {
       }, this))
       .end()
   }
+
+  $("#bs-example-navbar-collapse-1").click(function() {
+
+		$(this).hide();
+
+	});
+
+  $(".navbar-toggle").click(function() {
+
+    $("#bs-example-navbar-collapse-1").show();
+    $(".navbar-toggle").show();
+
+
+  });
 
   Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
     var isOpen = $element.hasClass('in')
