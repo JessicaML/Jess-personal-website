@@ -699,6 +699,9 @@ if (typeof jQuery === 'undefined') {
 
   });
 
+
+
+
   Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
     var isOpen = $element.hasClass('in')
 

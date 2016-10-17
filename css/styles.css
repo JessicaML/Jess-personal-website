@@ -25,6 +25,7 @@ body {
 		transition: color 2s ease-out;
 	}
 
+	
 #bs-example-navbar-collapse-1 a:hover {
 		color:#5D86CB;
 	}
