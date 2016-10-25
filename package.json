@@ -1,0 +1,24 @@
+{
+  "name": "jess-personal-website",
+  "version": "1.0.0",
+  "description": "Hi, this is my personal website, using JQuery and CSS animations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaML/Jess-personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaML/Jess-personal-website/issues"
+  },
+  "homepage": "https://github.com/JessicaML/Jess-personal-website#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.6.4"
+  }
+}
