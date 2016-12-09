@@ -685,11 +685,19 @@ if (typeof jQuery === 'undefined') {
       .end()
   }
 
+  $("#bs-example-navbar-collapse-1").click(function() {
 
-  $('.navbar-collapse a').click(function (e) {
-  $('.navbar-collapse').collapse('toggle');
-});
+		$(this).hide();
 
+	});
+
+  $(".navbar-toggle").click(function() {
+
+    $("#bs-example-navbar-collapse-1").show();
+    $(".navbar-toggle").show();
+
+
+  });
 
 
 
