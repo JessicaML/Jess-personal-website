@@ -23,7 +23,7 @@ body {
 		transition: color 2s ease-out;
 	}
 
-	
+
 #bs-example-navbar-collapse-1 a:hover {
 		color:#5D86CB;
 	}
@@ -58,6 +58,7 @@ body {
 		margin-top: 300px;
 		margin-left: 40px;
 		padding: 5px;
+		width: 50%;
 		background: #ffffff;
 		width: 450px;
 		background: rgba(245, 255, 0, 0.50);
