@@ -1,184 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- <script src="scripts.js"></script> -->
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Inspiration for Letter Effects with anime.js | Codrops</title>
+		<meta name="description" content="An inspirational set of letter animations for display typography powered by anime.js" />
+		<meta name="keywords" content="typography, animation, effect, web design, javascript, anime.js" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
 
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="styles.css" rel="stylesheet" type="text/css">
 
-    <script src="jquery-3.1.0.min.js"></script>
-    <script src="scripts.js"></script>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="css/styles.css" rel="stylesheet">
 
-    <meta name="description" content="Personal website for Jessica">
-    <link rel="icon" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="favicon-16x16.png" sizes="16x16" />
-    <title>Jessica Leach</title>
-  </head>
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script>document.documentElement.className = 'js';</script>
+	</head>
 
-  <body>
-		<div id="nav">
-			<ul>
-        <li><a href="#one" class="active">About me</a></li>
-				<li><a href="#two">Comics</a></li>
-				<li><a href="#three">Websites</a></li>
-				<li><a href="#four">Freelance</a></li>
-				<!-- <li><a href="#five">Elearning</a></li> -->
-        <li><a href="#six">Work history</a></li>
-        <!-- <li><a href="#seven">Contact</a></li> -->
+	<body>
+	<div>
+			<div class="content content--blended">
+			<!-- Media 1 -->
+			<div data-pop-media="media1" class="pop-media">
+				<div class="pop-media__overlay pop-media__overlay--c1"></div>
+			</div>
+			<!-- Media 2 -->
+			<div data-pop-media="media2" class="pop-media" style="background-image: url(./img/giphy3.gif);">
+				<div class="pop-media__overlay pop-media__overlay--c2"></div>
+			</div>
+			<!-- Media 3 -->
+			<div data-pop-media="media3" class="pop-media pop-media--circle" style="background-image: url(./img/giphy2.gif);">
+				<div class="pop-media__overlay pop-media__overlay--c3"></div>
+			</div>
+			<video data-pop-media="media7" class="pop-media" poster="videos/duck.jpg">
+			</video>
 
-			</ul>
+			<div>
+			<p class="content__paragraph content__paragraph--c1"> <span id="trigger-1" class="pop-text" data-pop-text-out data-pop-media="media1"></span></p>
+			<h1 class="content__paragraph content__paragraph--c2"> 
+			<a href="work.html"><span id="trigger-2" class="pop-text" data-pop-media="media2" style="color:magenta;">Work</span></a><a href="play.html"><span id="trigger-3" class="pop-text" data-pop-media="media3" style="float:right; color:#313DFF; margin-right: 20px; margin-top: 100px">Play</span></a> </h4>
 		</div>
-
-	<div id="one">
-		<div id="intro"><h1>Jessica Leach</h1>
-<div>
-    <p>Hi, I'm Jessica. I make comics and websites. I also have 3 years' experience working in edtech and elearning.</p>
-    <p>Right now I'm enrolled at NYCDA JavaScript bootcamp in Amsterdam, learning Sass, JQuery, Node, Express.</p>
-    </div>
-</div>
-  </div>
-
-	<div id="two">
-		<h2>Comics</h2>
-		<ul>
-			<li><a target="_blank" href="http://www.amazon.com/Episodes-Schizophrenia-Jen-Robinson-ebook/dp/B00F9EM6Z4">Episodes of Schizophrenia</a></li>
-      <p>This is a graphic novel about the experience of Schizophrenia, as well as the science behind the illness and historical, philosophical and social context.</p>
-			<li><a target="_blank" href="http://ivanatrump.bitballoon.com/">I think Ivana Trump</a></li>
-      <p>A web comic about tshe life of Donald Trump's first wife.</p>
-			<li><a target="_blank" href="http://onebeatzines.bigcartel.com/product/a-list-of-all-my-ex-stepdads-by-jessica-leach">A list of all my Ex-Stepdads</a></li>
-      <p>"My mum confessed to me once that she thought she was a commitment-phobe, like Chandlar Bing from <i>Friends</i>".</p>
-      <p> A list of all my Ex-Stepdads is a semi-autobiographical account of the worldviews and idiosynchrasies of a string of stepdads.</p>
-			<li>Lodgers - comining soon</li>
-      <p>A story about growing up in a family house-hold with foreign students, and their sometimes awkward and amusing interactions with the family.</p>
-			<li>EFL Teacher - comining soon</li>
-      <p>What it's like to teach English as a foreign language, and the eccentric characters who are attracted to the profession.</p>
-
-		</ul>
-	</div>
-
-	<div id="three">
-		<h2>Websites</h2>
-		<ul>
-      <li><a target="_blank" href="http://freakaholicsanonymous.bitballoon.com/">Freakaholics Anonymous</a></li>
-      <p>Website for art-pop band and multi-media collective, Freakaholics Anonymous.</p>
-
-      <li><a target="_blank" href="https://episodesofschizophrenia.bitballoon.com/">Episodes of Schizophrenia</a></li>
-      <p>Promotional website for a graphic novel about Schizophrenia.</p>
-
-      <li><a target="_blank" href="http://bookshop-irregulars.netlify.com/">Bookshop-Irregulars</a></li>
-      <p>Collected memories of the frequent customers of a London second-hand bookshop.</p>
-
-      <li><a target="_blank" href="http://politician-snake-63051.bitballoon.com/">Happy valentine's day - to feel loved and safe</a></li>
-      <p>Happy valentine's day ecard.</p>
-
-      <li><a target="_blank" href="http://pirate-lion-12113.bitballoon.com/">Happy valentine's day - for the broken-hearted</a></li>
-      <p>Happy valentine's day ecard - for the broken-hearted.</p>
-
-      <li><a target="_blank" href="http://machinist-preserver-20878.bitballoon.com/">Happy valentine's day - NSFW</a></li>
-      <p>Happy valentine's day ecard - not safe for work!</p>
-
-		</ul>
-	</div>
-
-	<div id="four">
-		<h2>Freelance</h2>
-		<ul>
-      <li><a target="_blank" href="https://www.theguardian.com/global-development-professionals-network/2015/mar/09/2015-challenges-geopolitical-shifts-economic-power-china">Guardian commision - 7 Global Megatrends</a></li>
-      <p>Illustrations for a series on global megatrends, inequality, climate change, urbanisation, demographic shifts, geopolitical shifts, technology and natural resources.</p>
-      <li><a target="_blank" href="https://www.theguardian.com/global-development-professionals-network/2014/aug/01/what-kind-of-men-support-fgm-an-illustrated-guide">Guardian commision - How to end FGM</a></li>
-      <p>Illustrations for a piece about ending FGM.</p>
-      <li><a target="_blank" href="http://alanamcverry.co.uk/http://alanamcverry.co.uk/Words-that-Echo-Short-Doc">Words That Echo</a></li>
-      <p>Animations for a film about kids living with HIV.</p>
-		</ul>
-	</div>
-
-	<!-- <div id="five">
-		<h2>Elearning</h2>
-		<ul>
-      <li><a href="Cert_CPV_Unit_1/index.html">FAQs - distance learning</a></li>
-      <p>An example of an e-learning module of FAQs to help orientate online distance learners.</p>
-      <li><a href="#"
-         onclick="window.open('Social-learning-video.mp4', 'sonrisasdental', 'toolbar=no,location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=550, height=450');"
-         class="uline">What is social learning?</a></li>
-
-      <p>A video explaining the rationale behind social learning - peer review enabled through technology.</p>
-
-			<li><a  href="FAQs_DL/index.html">Introduction to financial investment</a></li>
-      <p>Working at the Royal Institute of Chartered Surveyors, these are some examples of re-brannded e-learning modules - using Captivate to add interactivity.</p>
-
-		</ul> -->
-
-
-
-
-
-<!--
-
-<video width="480" height="350px" controls poster="Social-learning-video.png"s>
-  <source src="Social-learning-video.webm" type="video/webm">
-  <source src="Social-learning-video.mp4" type="video/mp4">
-  <source src="Social-learning-video.ogg" type="video/ogg">
-  Your browser doesn't support HTML5 video tag.
-</video> -->
-
-
-	</div>
-
-	<div id="six">
-		<h2>Work history</h2>
-		<ul>
- 			<li>Royal Institute Chartered Surveyors</li>
-      <p>December 2014 - May 2016</p>
-      <p>Within the training team of the Royal Institute of Chartered Surveyors, I created online learning products to support our members.</p>
-
-			<li>Knowledge Transmission</li>
-      <p>April 2013 - December 2014</p>
-      <p>Knowledge Transmission is an educational technology startup which digitises print content into learning platforms and apps. I ran training sessions, tested products and created marketing materials.</p>
-
-      <li>EnlightKS</li>
-      <p>January - April 2013</p>
-      <p>EnlightKS is an elearning company which provides learning solutions and legal compliance training to schools and businesses. I created browser-based lessons to teach the European Computer Driving License (ECDL), with elearning authoring tools and Adobe Creative Suite.</p>
-
-      <li>Centre for Applied Research in Educational Technologies (Caret)</li>
-      <p>July - September 2012 </p>
-      <p>Caret is an educational technology research unit in the university of Cambridge. I carried out user testing of new products and created diagrams, illustrations and icons to illustrate organisational goals.</p>
-
-      <li>EFL Teacher</li>
-      <p>2008 - 2012</p>
-      <p>I worked in Slovakia, Spain, London and Cambridge, teaching all ages and helping prepare students for IELTS, PET and KET exams.</p>
-		</ul>
-	</div>
-
-  <div id="seven">
-		<h2>Contact</h2>
-
-    <!-- <div id="contact-details">
-      <ul>
-        <p>Say hello!</p>
-
-    </div> -->
-
-
-    <div id="contact-form">
-      <form method="post" action="#">
+		  <div id="one">
         <div class="row">
-          <div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-          <div class="6u"><input type="email" name="email" placeholder="Email" /></div>
-        </div>
-        <div class="row">
-          <div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-        </div>
-        <div class="row">
-          <div class="12u">
-            <ul class="actions">
-              <li><input type="submit" value="Send" /></li>
-            </ul>
+<!--             <div class="col-lg-12">
+ -->                <h1><span style="font-family:Space mono; color:yellow;">Jessica</span> <span style="color:#313DFF;">Leach</span></h1>
+
+            </div>
           </div>
-        </div>
-      </form>
-    </div>
-
-
 
   <div id="footer">
     <ul>
@@ -190,5 +66,13 @@
     </ul>
   </div>
 
-</body>
+</div>
+
+	
+		<script src="js/anime.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/plyr.js"></script>			
+		<script src="js/main.js"></script>
+
+	</body>
 </html>

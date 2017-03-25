@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+}
+
+.work {
+	background: #E55D87; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #E55D87 , #5FC3E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#bs-example-navbar-collapse-1 {
+		position: fixed;
+		font-size: 20pt;
+		height: 100%;
+		width: 100%;
+		background-color: #3b3b3b;
+	}
+
+#bs-example-navbar-collapse-1 a {
+		color:#ffffff;
+		-webkit-transition: color 2s ease-out;
+		-moz-transition: color 2s ease-out;
+		-o-transition: color 2s ease-out;
+		transition: color 2s ease-out;
+	}
+
+
+#bs-example-navbar-collapse-1 a:hover {
+		color:#5D86CB;
+	}
+
+#bs-example-navbar-collapse-1 ul li {
+			margin-left: 0.5em;
+			font-size: 0.7em;
+			font-family: 'Fugaz One', monospace, sans-serif;
+		}
+
+@media screen and (min-width: 480) {
+
+#bs-example-navbar-collapse-1 ul li {
+		display: inline-block;
+		margin-left: 0.5em;
+		font-size: 0.7em;
+		font-family: 'Fugaz one', monospace, sans-serif;
+	}
+}
+
+#one {
+		font-size: 20pt;
+		padding-top: 30px;
+		color: #3b3b3b;
+		background:url(../img/work.jpg);
+		background-size:100% 100%;
+		background-size:100% 100%;
+		height: 700px;
+	}
+
+#intro {
+		font-size: 20pt;
+		margin-top: 300px;
+		margin-left: 40px;
+		padding: 5px;
+		background: #ffffff;
+		width: 450px;
+		background: rgba(245, 255, 0, 0.70);
+		color: #3b3b3b;
+	}
+
+ #two {
+	 padding-top: 40px;
+	 background-color: yellow;
+	 color: #3b3b3b;
+	 height: 100%;
+ }
+
+#three {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
+#four {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
+#five {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
+#six {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
+#seven {
+	padding-top: 40px;
+	background-color: yellow;
+	color: #3b3b3b;
+	height: 100%;
+}
+
+#seven form {
+		margin: 15px;
+		padding: 5px;
+		font-size: 1.5em;
+		display: block;
+		font-family: 'Fugaz One', monospace, sans-serif;
+	}
+
+#seven input {
+			padding: 5px;
+			margin: 5px;
+			font-family: 'Fugaz One', monospace, sans-serif;
+			color: #066188;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
+		}
+
+#seven textarea {
+			padding: 5px;
+			margin: 5px;
+			font-family: 'Fugaz One', monospace, sans-serif;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
+			}
+
+#seven button {
+			padding: 5px;
+			margin: 5px;
+			font-family: 'Fugaz One', monospace, sans-serif;
+			border:solid 2px rgba(185,186,187,0.25);
+			border-radius:0.5em;
+			}
+
+#footer {
+		font-size: 20pt;
+		margin-bottom: 20px;
+		width: 100%;
+		background-color: #3b3b3b;
+		float: right;
+}
+
+#footer a {
+		color: #5D86CB;
+		margin-right: 5px;
+		padding-right: 5px;
+}
+
+#footer ul li {
+	display: inline-block;
+	margin: 0.7em;
+	margin-right: 5px;
+	padding-right: 5px;
+	font-size: 0.6em;
+	font-family: 'Fugaz One', monospace, sans-serif;
+	float: right;
+}
+
+h1 {
+	font-family: 'Fugaz One', monospace, sans-serif;
+	font-size: 28pt;
+	color: #3b3b3b;
+}
+
+h2 {
+    font-family: 'Fugaz One', monospace, sans-serif;
+		font-size: 24pt;
+		color: #ffffff;
+		padding: 5px;
+		background-color: #3b3b3b;
+}
+
+p {
+	font-family: 'Bitter', Courier, sans-serif;
+	font-size: 11pt;
+}
+
+h4 {
+	font-family: 'Bitter', Courier, sans-serif;
+	font-size: 30pt;
+	color: #066188;
+}
+
+li {
+	font-family: 'Bitter', Courier, sans-serif;
+	font-size: 14pt;
+	color: #066188;
+	list-style: none;
+}
+
+a {
+	color:#066188;
+	-webkit-transition: color .5s ease-out;
+	-moz-transition: color .5s ease-out;
+	-o-transition: color .5s ease-out;
+	transition: color .5s ease-out;
+  }
+
+	a:hover {
+		color:#ffffff;
+	}
